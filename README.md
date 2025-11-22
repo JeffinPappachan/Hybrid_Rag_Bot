@@ -123,10 +123,10 @@ The console output provides a clear breakdown of performance for backend optimiz
 
  ### 📸 Proof of Execution
 
-**Scenario 1: Keyword Routing & Exact Answer (Stipend)**
-*Notice the Metadata Filter matches "TOKEN REMUNERATION"*
+**Scenario 1: Latency Logging & Fallback Search (Location)**
+*Notice the low retrieval latency vs generation latency*
 ![Stipend Query Log](screenshots/Result_Sample_01.png)
 
-**Scenario 2: Latency Logging & Fallback Search (Location)**
-*Notice the low retrieval latency vs generation latency*
+**Scenario 2: Keyword Routing & Exact Answer (Stipend)**
+*Notice the Metadata Filter matches "TOKEN REMUNERATION"*
 ![Place Query Log](screenshots/Result_Sample_02.png)
