@@ -120,3 +120,13 @@ The console output provides a clear breakdown of performance for backend optimiz
 
 *   **Error: `Database not found`**
     *   *Fix:* You must run the ingestion script once before starting the bot. Run `python ingest.py`.
+
+ ### 📸 Proof of Execution
+
+**Scenario 1: Keyword Routing & Exact Answer (Stipend)**
+*Notice the Metadata Filter matches "TOKEN REMUNERATION"*
+![Stipend Query Log](screenshots/Result_Sample_01.png)
+
+**Scenario 2: Latency Logging & Fallback Search (Location)**
+*Notice the low retrieval latency vs generation latency*
+![Place Query Log](screenshots/Result_Sample_02.png)
